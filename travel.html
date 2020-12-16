@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title> My Travel </title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- Bootstrap Stylesheet-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header class="logo">
+		<img src="images/logo.png" alt="Portfolio Logo"  class="img-fluid logo">
+	</header><br>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="resume.html">Resume</a></li>
+			<li><a href="travel.html">My Travel</a></li>
+		</ul>
+	</nav>
+	<br>
+	<main>
+		<div id="wrapper">
+			<p style="text-align: center;">I love to travel! Here are some pictures from my latest adventures to Europe:</p><br>
+			<div class="gallery">
+
+			    <div class="preview">
+			        <img id="preview" src="images/milancathedral.jpeg" style="display:block; float: center; margin:0 auto;" alt="" >
+			    </div>
+
+			    <div class="gallery-thumbnails" style="margin:0 auto; float: center;" />
+			        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/champselysees.jpeg" alt="" />
+			        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/venice.jpeg" alt=""  />
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/venice2.jpeg" alt="" />
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/switzerland.jpeg" alt="" />
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/mountains.jpeg" alt="" />
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/disneyland.jpeg" alt="" />
+			        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/louvre.jpeg" alt="" />
+			    </div>
+			</div>
+			<br><p style="text-align: center;">I am always adding new places to my bucket list. <br> If you have a recommendation on where I should visit next, send me an email!</p>
+			<br>
+		</div>
+
+	</main>
+	<footer>
+		<br>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-sm-4">
+						<i class="fa fa-facebook" aria-hidden="true"></i><br>
+						<a href="https://www.facebook.com/karenshruthi.jegadish" target="_blank">Follow me on Facebook!</a>
+					</div>
+					<div class="col-sm-4">
+						<i class="fa fa-linkedin" aria-hidden="true"></i><br>
+						<a href="https://www.linkedin.com/in/karen-jegadish-ab31b31ab" target="_blank">Connect with me on Linked In</a>
+					</div>
+					<div class="col-sm-4">
+						<i class="fa fa-envelope-o" aria-hidden="true"></i><br>
+						<a href="mailto:karen.jegadish@gmail.com">Email Me</a>
+					</div>
+				</div>
+			</div>
+		<br><small>&copy;Karen Jegadish</small>
+		<br><small></small>
+
+	</footer>
+	</div>
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+</body>
+</html>
